@@ -1,0 +1,91 @@
+body{
+	font-family: 'Comfortaa', cursive;
+}
+img{
+	max-width: 100%;
+	display:block;
+}
+#header{
+	width: 1000px;
+    margin: 0 auto;
+    background: #eee;
+    overflow: hidden;
+    border: 1px solid #1e419e;
+    box-shadow: 5px 5px 3px #596392;
+}
+header{
+	width: 100%;
+}
+.logo{
+	width: 25%;
+	float: left;
+
+}
+.logo img{
+	margin-left: 40px;
+    margin-top: 10px;
+}
+nav{
+	width: 75%;
+    float: left;
+    padding-top: 10px;
+
+}
+nav ul{
+	margin: 0;
+    padding: 0;
+    margin-left: 70px;
+}
+nav ul li{
+	list-style: none;
+    float: left;
+    padding: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    display: block;
+    color: #333;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+}
+nav ul li a:hover{
+	background: #85a5ad;
+}
+/*header section ends*/
+
+.galleries{
+	float: left;
+	margin-top: 20px;
+
+}
+.gallery{
+	width: 25%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.gallery img{
+
+}
+.gallery .caption{
+	padding: 0 10px;
+    background: #fff;
+    color: #272a44;
+
+}
+.gallery .caption h2{
+
+}
+.gallery .caption p{
+
+}
+.gallery .caption a{
+
+	text-decoration: none;
+    text-transform: uppercase;
+    font-size: small;
+}
