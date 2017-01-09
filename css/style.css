@@ -89,3 +89,36 @@ nav ul li a:hover{
     text-transform: uppercase;
     font-size: small;
 }
+
+footer{
+
+}
+
+.copyright{
+	width: 85%;
+	float: left;
+}
+.copyright p{
+	margin: 0;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.social{
+	width: 15%;
+	float: left;
+}
+.social ol{
+	margin: 0;
+	padding: 0;
+
+}
+.social ol li{
+	float: left;
+	list-style: none;
+}
+.social ol li a{
+	color: #333;
+	padding: 5px;
+	text-decoration: none;
+}
+.social ol li a:hover{}
